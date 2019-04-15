@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="bMb-QI-OVL">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="bMb-QI-OVL">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -111,7 +111,7 @@ or stored on device</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1802.4000000000001" y="134.48275862068968"/>
+            <point key="canvasLocation" x="1801.875" y="134.1549295774648"/>
         </scene>
         <!--Card Details View Controller-->
         <scene sceneID="VFL-5z-Tp3">
@@ -144,7 +144,7 @@ or stored on device</string>
                                         <rect key="frame" x="15" y="0.0" width="305" height="60"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WYw-dn-7p9">
-                                                <rect key="frame" x="0.0" y="20" width="110" height="21"/>
+                                                <rect key="frame" x="0.0" y="20" width="48" height="21"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -160,7 +160,6 @@ or stored on device</string>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="60" id="3k2-5m-gfC"/>
                                             <constraint firstItem="WYw-dn-7p9" firstAttribute="centerY" secondItem="l5N-fB-zYX" secondAttribute="centerY" id="86N-g0-buD"/>
-                                            <constraint firstItem="m7M-1U-9uw" firstAttribute="leading" secondItem="WYw-dn-7p9" secondAttribute="trailing" constant="8" id="Grf-G0-wYv"/>
                                             <constraint firstItem="WYw-dn-7p9" firstAttribute="leading" secondItem="l5N-fB-zYX" secondAttribute="leading" id="JK7-ZI-PnQ"/>
                                             <constraint firstItem="m7M-1U-9uw" firstAttribute="top" secondItem="l5N-fB-zYX" secondAttribute="top" id="JMI-NP-a7F"/>
                                             <constraint firstItem="m7M-1U-9uw" firstAttribute="leading" secondItem="l5N-fB-zYX" secondAttribute="leading" constant="118" id="LmY-aZ-uQr"/>
@@ -190,7 +189,6 @@ or stored on device</string>
                                             <constraint firstItem="hQd-Xs-4KC" firstAttribute="top" secondItem="mes-YI-1fW" secondAttribute="top" id="BFh-PM-cm7"/>
                                             <constraint firstAttribute="bottom" secondItem="hQd-Xs-4KC" secondAttribute="bottom" id="Mdy-qc-9wk"/>
                                             <constraint firstAttribute="trailing" secondItem="hQd-Xs-4KC" secondAttribute="trailing" constant="8" id="RuI-7M-1qR"/>
-                                            <constraint firstItem="hQd-Xs-4KC" firstAttribute="leading" secondItem="bZL-Fj-QAK" secondAttribute="trailing" constant="8" id="eLQ-nN-eZg"/>
                                             <constraint firstItem="hQd-Xs-4KC" firstAttribute="leading" secondItem="mes-YI-1fW" secondAttribute="leading" constant="118" id="evx-gf-aqE"/>
                                             <constraint firstItem="bZL-Fj-QAK" firstAttribute="leading" secondItem="mes-YI-1fW" secondAttribute="leading" id="m53-o3-JCQ"/>
                                             <constraint firstAttribute="height" constant="60" id="uFt-za-xvT"/>
@@ -200,7 +198,7 @@ or stored on device</string>
                                         <rect key="frame" x="15" y="122" width="305" height="60"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Expire" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P9V-4j-CO9">
-                                                <rect key="frame" x="0.0" y="20" width="110" height="21"/>
+                                                <rect key="frame" x="0.0" y="20" width="52" height="21"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -218,7 +216,6 @@ or stored on device</string>
                                             <constraint firstAttribute="trailing" secondItem="Z4b-VL-wT3" secondAttribute="trailing" id="5f0-hT-DIZ"/>
                                             <constraint firstItem="P9V-4j-CO9" firstAttribute="leading" secondItem="pkC-0s-b52" secondAttribute="leading" id="7cx-NS-NP6"/>
                                             <constraint firstAttribute="bottom" secondItem="Z4b-VL-wT3" secondAttribute="bottom" id="HhO-AR-j8n"/>
-                                            <constraint firstItem="Z4b-VL-wT3" firstAttribute="leading" secondItem="P9V-4j-CO9" secondAttribute="trailing" constant="8" id="Mop-Pn-SCJ"/>
                                             <constraint firstItem="P9V-4j-CO9" firstAttribute="centerY" secondItem="pkC-0s-b52" secondAttribute="centerY" id="W4h-0L-bTq"/>
                                             <constraint firstItem="Z4b-VL-wT3" firstAttribute="top" secondItem="pkC-0s-b52" secondAttribute="top" id="Yjy-iu-Fwt"/>
                                             <constraint firstItem="Z4b-VL-wT3" firstAttribute="leading" secondItem="pkC-0s-b52" secondAttribute="leading" constant="118" id="uvI-mQ-XaC"/>
